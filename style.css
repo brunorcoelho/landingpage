@@ -1,16 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     display: flex;
     flex-direction: column;
 }
 
-.header {
+.header, footer {
     background-color: #1f2937;
+}
+
+.logo p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links a, .infoLanding p {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.infoLanding h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
 
 .inspiringQuote {
-    background-color: #E7E7EB;
+    background-color: #E5E7EB;
 }
 
-footer {
-    background-color: #1f2937;
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    padding: 10px 200px 0px 200px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.links ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.bottom {
+    display: flex;
+    flex-basis: 300px;
+}
+
+footer p {
+    color: #E5E7EB;
 }
