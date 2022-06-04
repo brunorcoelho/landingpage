@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+.inspiringQuote {
+    background-color: #E7E7EB;
+}
+
+footer {
+    background-color: #1f2937;
+}
