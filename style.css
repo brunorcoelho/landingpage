@@ -44,7 +44,8 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 500px;
-    padding: 10px 200px 0px 200px;
+    padding-top: 20px;
+    width: 100%;
 }
 
 .top {
@@ -81,7 +82,7 @@ footer p {
     max-width: 400px;
 }
 
-button {
+.infoLanding button {
     padding: 5px 25px;
     border: 0;
     color: white;
@@ -94,7 +95,7 @@ button {
     transition: 0.3s;
 }
 
-button:hover {
+.infoLanding button:hover {
     opacity: 1;
 }
 
@@ -103,13 +104,97 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+}
+
+.infoSection .title {
+    margin: 40px 0px;
 }
 .imagesInfo {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px 40px;
 }
+
 .imagesInfo img {
-    border: 2px solid blue;
+    border: 3px solid blue;
     border-radius: 20px;
-    width: 200px;
+    width: 150px;
     height: auto;
 }
+
+.imageBox {
+    width: 150px;
+    margin: 0px 40px 40px 40px;
+}
+
+.imageBox figcaption {
+    text-align: center;
+}
+
+.inspiringQuote {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-style: italic;
+}
+
+.inspiringQuote .quote {
+    max-width: 900px;
+}
+
+.inspiringQuote .author {
+    width: 900px;
+    text-align: end;
+}
+
+ .ad {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .adbox {
+    height: fit-content;
+    background-color: #3b82f6;
+    display: flex;
+    border-radius: 5px;
+    gap: 200px;
+    padding: 20px 150px;
+ }
+
+ .adtext {
+     color: white;
+ }
+
+ .AdButton {
+    align-self: center;
+ }
+
+ .AdButton button {
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    font-weight: 900;
+    opacity: 0.6;
+    transition: 0.3s;
+ }
+
+ .AdButton button:hover {
+     opacity: 1;
+ }
+
+ footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
